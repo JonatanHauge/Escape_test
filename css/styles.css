@@ -1,0 +1,68 @@
+/* Text Styles */
+body {
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+h1 {
+  color: darkgray; /* Header text color changed to red */
+  font-size: 24px;
+}
+
+/* Container Styles */
+main {
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin: 10px auto;
+  width: 80%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Form and Input Styles */
+form {
+  margin: 20px 0;
+}
+
+input[type="text"], input[type="submit"] {
+  padding: 8px;
+  margin: 5px 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Link Styles */
+a {
+  color: #0275d8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #01447e;
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  main {
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+/* Image and Video Styles */
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
